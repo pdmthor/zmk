@@ -1,0 +1,6 @@
+if KILT
+
+config ZMK_KEYBOARD_NAME
+    default "KILT"
+
+endif

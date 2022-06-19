@@ -1,0 +1,2 @@
+config KILT
+    def_bool $(shields_list_contains,KILT)
