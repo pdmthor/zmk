@@ -1,6 +1,9 @@
 file_format: "1"
-id: KILT
-name: KILT
+id: kilt
+siblings:
+  - kilt_left
+  - kilt_right
+name: K.I.L.T.
 type: shield
 url: https://github.com/pdmthorsrud/zmk/
 requires:
