@@ -28,10 +28,10 @@
                 };
                 functions_layer {
                         bindings = <
-            &kp NON_US_HASH &kp NON_US_BACKSLASH &kp LS(N1)     &kp LA(N8)     &kp LA(N9)     &kp LA(N9) &kp Y  &kp N7 &kp N8 &kp N9     &kp Z    &bootloader
-            &kp DOLLAR      &kp LS(N0)           &kp MINUS      &kp LS(N8)     &kp LS(N9)     &kp LS(N2) &kp H  &kp N4 &kp N5 &kp N6     &kp L    &bt BT_SEL 0
-            &trans          &kp GRAVE            &kp LS(LA(N8)) &kp LS(LA(N8)) &kp LS(LA(N9)) &kp N      &kp N1 &kp N2 &kp N3 &kp PERIOD &kp SEMI &bt BT_CLR
-                            &kp A                &kp B          &kp C          &kp D          &kp E      &kp F  &kp G  &kp H  &kp I      &kp 0
+            &kp NON_US_HASH &kp NON_US_BACKSLASH &kp LS(N1)     &kp LA(N8)     &kp LA(N9)     &kp LA(N9) &kp Y  &kp N7 &kp N8 &kp N9     &kp Z      &bootloader
+            &kp DOLLAR      &kp LS(N0)           &kp MINUS      &kp LS(N8)     &kp LS(N9)     &kp LS(N2) &kp H  &kp N4 &kp N5 &kp N6     &kp L      &bt BT_SEL 0
+            &trans          &kp GRAVE            &kp LS(LA(N8)) &kp LS(LA(N8)) &kp LS(LA(N9)) &kp N      &kp N  &kp N1 &kp N2 &kp N3     &kp PERIOD &bt BT_CLR
+                            &kp A                &kp B          &kp C          &kp RA(RBKT)   &kp E      &kp F  &kp G  &kp H  &kp N0     &kp 0
                     >;
                 };
         };
